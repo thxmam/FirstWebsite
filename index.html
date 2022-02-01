@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<style>
+    h3{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container" col-12 col-xl-12>
+          <a class="navbar-brand" href="#">
+              <img src="buildlogo.png" height="50">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#formregister">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cardsdirect">Mentors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Participate</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        
+            </div>
+          
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="carousel1.png" alt="" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="carousel2.png" alt="" class="d-block w-100">
+              </div>
+            </div>
+          
+        
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+<br>
+    <div class="Intro">
+          <h3>Join us!</h3>
+          <p>Pygrammers is a community of Python enthusiasts with simliar ideologies and interests</p>
+          <button  onClick="location.href='https://t.me/pygrammers_official'" type="button" class="btn btn-primary" id="telegram">
+            Telegram
+        </button> <br> 
+    </div> <br> <br> <br> <br>
+<a id="formregister">
+    <div class="Register" id="Register">
+        <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-6 mx-auto">
+        <form>
+        
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" class="form-control"  placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+            <label>Mobile Number</label>
+              <input type="number" class="form-control"  placeholder="Enter mobile number">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label>Company/institution Name</label>
+              <input type="text" class="form-control"  placeholder="Enter Company/institution Name">
+            </div>
+            <div class="form-group">
+              <small id="emailHelp" class="form-text text-muted">upload a short video on your interest</small>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+            <select class="custom-select">
+              <option selected>Have you attended any programs by pygrammers before?
+              <option value="1">yes</option>
+              <option value="2">no</option>
+            </select>
+            <button type="submit" class="btn btn-primary" style="margin: 10px;">Submit</button>
+          </form>
+        </div>
+        </div>
+    
+     <br> <br>
+
+<a id="cardsdirect">
+    <div class="container">
+        <div class="card-group" class="col-12 col-xl-4">
+            <div class="card">
+              <img class="card-img-top" src="buildlogo.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+              </div>
+
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="buildlogo.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="buildlogo.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+              </div>
+            </div>
+          </div>
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="buildlogo.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="buildlogo.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="buildlogo.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+              </div>
+            </div>
+          </div>
+    </div>
+</a>
+    <br>
+    <br>
+
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+
+        <div class="container pt-4">
+
+          <section class="mb-4">
+        <img src="footer.png" width="300" style="text-align:center;">
+
+    </div>
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-dark" href="https://pygrammers.com/">Pygrammers</a>
+        </div>
+
+      </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

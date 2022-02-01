@@ -1,0 +1,28 @@
+.Intro{
+text-align: center;
+align-items: center;
+}
+.formspace{
+    width:1200px;
+    padding-left:180px
+}
+.custom-file{
+    text-size-adjust:50%;
+}
+.formspace{
+    padding-inline-end:30%;
+    padding-top: 8%;
+    padding-bottom:8%;
+}
+.formspace{
+    max-height: max-content;
+}
+.footer{
+    align-items:center;
+}
+.img{
+    text-align: center;
+}
+.telegram{
+    color: antiquewhite;
+}
